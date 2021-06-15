@@ -7,6 +7,8 @@
     <title></title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.main.js" defer ></script>
 </head>
 <body>
     <% if(title) { %>
@@ -16,7 +18,9 @@
         
     <% } %>  
     <% if (content) { %>
-        <p><%= content %></p> 
+        <div class="container">
+            <p><%= content %></p> 
+        </div>
     <% } %>
 </body>
 </html>
