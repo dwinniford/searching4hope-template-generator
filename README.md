@@ -10,4 +10,8 @@ The following command will output a basic html file with content in place:
 
 `ejs ./templates/index.ejs -f ./test-data/data.json -o test_output.html`
 
+Or run the script in render.js with:
+
+`node render.js`
+
 Recommend using "EJS language support" for snippets.
