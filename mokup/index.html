@@ -1,0 +1,103 @@
+<div class="slideshow-container">
+  
+    <div class="mySlides fade">
+        <div class="first-section">
+            <img src="https://miro.medium.com/max/4000/1*scntS6kJIYQBHm9G5eaUDw.jpeg" style="width:100%">
+            <div class="first-section-text">
+                <p>(mokup texts)</p>
+                <h1>There is a way out</h1>
+                <h2>Please consider taking a look</h2>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="first-section">
+            <img src="https://miro.medium.com/max/1400/1*nkpPzhVZMFZ1OMnqbYQ29g.png" style="width:100%">
+            <div class="first-section-text">
+                <p>(mokup texts 1)</p>
+                <h1>There is a way out</h1>
+                <h2>Dare to check it out</h2>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="first-section">
+            <img src="https://oceansinthedesert.files.wordpress.com/2017/12/img_4204.jpg" style="width:100%">
+            <div class="first-section-text">
+                <p>(mokup texts 2)</p>
+                <h1>Restoring Hope</h1>
+                <h2>Yes, hope exists</h2>
+            </div>
+        </div>
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+</div>
+  
+<div class="second-section">
+<div class="second-section-text">
+    <h1>What are you struggling with?</h1>
+    <h2>Perhaps you can find yourself in one of these places</h2>
+    <p>Depression, finances, relationship issues, loneliness, bullying, grief, anger, abuse, fear, anxiety... </p>
+</div>
+</div>
+
+<div class="resources">
+<div class="resources-text">
+    <h1>Articles & Videos</h1>
+    <div class="video">
+        <iframe width="1200" height="675" src="https://www.youtube-nocookie.com/embed/-zo0FjYsO7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>         </iframe>
+    </div>
+</div>
+</div>
+
+<div class="contact">
+<div class="contact-text">
+    h1>Too much pain & struggle?</h1>
+    <h2>We get it…</h2>
+    <h2>Reach out today</h2>
+    <div class="btns">
+        <button>CALL</button>
+        <button>CHAT</button>
+        <button>TEXT</button>
+    </div>
+</div>
+</div>
+
+<div class="about-us">
+<div class="about-us-text">
+    <h1>About Us</h1>
+    <p>We are people just like you. We also struggle. We also face issues. We know how things can so easily slip away from what we wish they were.</p>
+    <p>But still, we set up this website to be here for you when you came so that you could know that Jesus sees you right where you are and has a new life for you...</p>
+</div>
+</div>
+
+
+
+  <script>
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+
+    slides[slideIndex-1].style.display = "block";  
+    }
+
+  </script>
