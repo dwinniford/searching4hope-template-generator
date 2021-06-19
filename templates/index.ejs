@@ -5,22 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
     <link rel="stylesheet" href="css/main.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.main.js" defer ></script>
 </head>
 <body>
-    <% if(title) { %>
-        <div class="container text-center">
-            <h1><%= title %> </h1>
-        </div>
-        
-    <% } %>  
-    <% if (content) { %>
-        <div class="container">
-            <p><%= content %></p> 
+    <% if (slideshow.length > 0) { %> 
+        <div class="slideshow-container">
+                <% slideshow.forEach(slide => { %>
+                    <div class="mySlides fade">
+                        <div class="first-section">
+                            <img src=<%= slide.image %> style="width:100%">
+                            <div class="first-section-text">
+                                <p><%= slide.text %> </p>
+                                <h1><%= slide.title %> </h1>
+                                <h2><%= slide.subtitle %> </h2>
+                            </div>
+                        </div>
+                    </div>
+                <% }) %>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
     <% } %>
+    
 </body>
 </html>
