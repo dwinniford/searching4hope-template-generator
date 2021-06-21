@@ -20,6 +20,7 @@
         }
     ],
     "secondSection": {
+        "image": "https://miro.medium.com/max/12480/1*DoO_VUQM8wFS8Ekc1sZKOA.jpeg",
         "title": "What are you struggling with?",
         "subtitle": "Perhaps you can find yourself in one of these places",
         "text": "Depression, finances, relationship issues, loneliness, bullying, grief, anger, abuse, fear, anxiety... "
@@ -29,11 +30,13 @@
         "video": "https://www.youtube-nocookie.com/embed/-zo0FjYsO7I"
     }, 
     "contact": {
+        "image": "https://www.ucsf.edu/sites/default/files/styles/2014_inline_5-col/public/fields/field_insert_file/news/woman-smartphone.jpg?itok=gxpgs-Jb",
         "title": "Too much pain & struggle?",
         "subtitle": "We get it…",
         "subtitle2": "Reach out today"
     },
     "about": {
+        "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/924/posts/27797/image/directeyecontactgirl.jpg",
         "title": "About Us",
         "text": "We are people just like you. We also struggle. We also face issues. We know how things can so easily slip away from what we wish they were.",
         "text2": "But still, we set up this website to be here for you when you came so that you could know that Jesus sees you right where you are and has a new life for you..."

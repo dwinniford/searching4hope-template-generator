@@ -31,6 +31,10 @@
     <% } %>
     <% if (secondSection) { %>
         <div class="second-section">
+            <% if (secondSection.image) { %>
+                <img src=<%= secondSection.image %>> 
+            <% } %>
+            
             <div class="second-section-text">
                 <% if (secondSection.title) { %>
                     <h1><%= secondSection.title %> </h1>
@@ -62,6 +66,9 @@
     
     <% if (contact) { %>
         <div class="contact">
+            <% if (contact.image) { %>
+                <img src=<%= contact.image %>> 
+            <% } %>
             <div class="contact-text">
                 <% if (contact.title) { %>
                     <h1><%= contact.title %> </h1>
@@ -83,6 +90,9 @@
     
     <% if (about) { %>
         <div class="about-us">
+            <% if (about.image) { %>
+                <img src=<%= about.image %>> 
+            <% } %>
             <div class="about-us-text">
                 <% if (about.title) { %>
                     <h1><%= about.title %> </h1>
