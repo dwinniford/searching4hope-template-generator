@@ -8,11 +8,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 1000px
+    height: 100vh;
   }
 
   .first-section img, .second-section img, .contact img, .about-us img{
     width:100%;
+    height: 100vh;
+    object-fit: cover;
   }
   
   .first-section-text {
@@ -114,7 +116,13 @@ body {
     position: absolute;
     top: 420%;
     left: 200%;
+    width: 75vw;
+    height: 60vh;
     transform: translate(-50%, -50%);
+  }
+  .video iframe {
+    width: 100%;
+    height: inherit；
   }
   
   /*---------------------------------*/
