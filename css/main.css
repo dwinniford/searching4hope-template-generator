@@ -10,23 +10,9 @@ body {
     position: relative;
     height: 1000px
   }
-  
-  /*
-  .first-section img {
-    filter: grayscale(100%);
-  }
-  */
-  
-  .second-section {
-    background-image: url('https://miro.medium.com/max/12480/1*DoO_VUQM8wFS8Ekc1sZKOA.jpeg');
-  }
-  
-  .contact {
-    background-image: url('https://www.ucsf.edu/sites/default/files/styles/2014_inline_5-col/public/fields/field_insert_file/news/woman-smartphone.jpg?itok=gxpgs-Jb');
-  }
-  
-  .about-us {
-    background-image: url('https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/924/posts/27797/image/directeyecontactgirl.jpg');
+
+  .first-section img, .second-section img, .contact img, .about-us img{
+    width:100%;
   }
   
   .first-section-text {
@@ -79,6 +65,7 @@ body {
     font-size: 80px;
     text-align: center;
   }
+
   .second-section-text h2 {
     text-align: left;
     font: 30px Oswald, sans-serif;
@@ -100,6 +87,7 @@ body {
     text-align: left;
     font: 30px Oswald, sans-serif;
     text-transform: uppercase;
+    padding: 20px 24px;
   }
   
   .about-us-text {
