@@ -29,6 +29,73 @@
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
     <% } %>
+    <% if (secondSection) { %>
+        <div class="second-section">
+            <div class="second-section-text">
+                <% if (secondSection.title) { %>
+                    <h1><%= secondSection.title %> </h1>
+                <% } %>
+                <% if (secondSection.subtitle) { %>
+                    <h2><%= secondSection.subtitle %> </h2>
+                <% } %>
+                <% if (secondSection.text) { %>
+                    <p><%= secondSection.text %> </p>
+                <% } %>
+            </div>
+        </div>
+    <% } %>
+    
+    <% if (resources) { %>
+        <div class="resources">
+            <div class="resources-text">
+                <% if (resources.title) { %>
+                    <h1><%= resources.title %> </h1>
+                <% } %>
+                <% if (resources.video) { %>
+                    <div class="video">
+                        <iframe width="1200" height="675" src=<%= resources.video %>  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>         </iframe>
+                    </div>
+                <% } %>
+            </div>
+        </div>
+    <% } %>
+    
+    <% if (contact) { %>
+        <div class="contact">
+            <div class="contact-text">
+                <% if (contact.title) { %>
+                    <h1><%= contact.title %> </h1>
+                <% } %>
+                <% if (contact.subtitle) { %>
+                    <h2><%= contact.subtitle %> </h2>
+                <% } %>
+                <% if (contact.subtitle2) { %>
+                    <h2><%= contact.subtitle2 %> </h2>
+                <% } %>
+                <div class="btns">
+                    <button>CALL</button>
+                    <button>CHAT</button>
+                    <button>TEXT</button>
+                </div>
+            </div>
+        </div>
+    <% } %>    
+    
+    <% if (about) { %>
+        <div class="about-us">
+            <div class="about-us-text">
+                <% if (about.title) { %>
+                    <h1><%= about.title %> </h1>
+                <% } %>
+                <% if (about.text) { %>
+                    <p><%= about.text %></p> 
+                <% } %>
+                <% if (about.text2) { %>
+                    <p><%= about.text2 %></p> 
+                <% } %>
+            </div>
+        </div>
+    <% } %>    
     
 </body>
 </html>

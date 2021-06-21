@@ -18,5 +18,24 @@
             "title": "There is a way out",
             "subtitle": "Please consider taking a look"
         }
-    ]
+    ],
+    "secondSection": {
+        "title": "What are you struggling with?",
+        "subtitle": "Perhaps you can find yourself in one of these places",
+        "text": "Depression, finances, relationship issues, loneliness, bullying, grief, anger, abuse, fear, anxiety... "
+    },
+    "resources": {
+        "title": "Articles & Videos",
+        "video": "https://www.youtube-nocookie.com/embed/-zo0FjYsO7I"
+    }, 
+    "contact": {
+        "title": "Too much pain & struggle?",
+        "subtitle": "We get it…",
+        "subtitle2": "Reach out today"
+    },
+    "about": {
+        "title": "About Us",
+        "text": "We are people just like you. We also struggle. We also face issues. We know how things can so easily slip away from what we wish they were.",
+        "text2": "But still, we set up this website to be here for you when you came so that you could know that Jesus sees you right where you are and has a new life for you..."
+    }
 }
